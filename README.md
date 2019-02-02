@@ -10,5 +10,5 @@ docker run \
     -v andesite:/go \
     --mount type=bind,source=<PATH TO DIR>,target=/mnt \
     -p 8000:8000 \
-    andesite-docker:latest
+    pascaldulieu/andesite-docker:latest
 ```
